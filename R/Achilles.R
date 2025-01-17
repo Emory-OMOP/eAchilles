@@ -328,7 +328,7 @@ achilles <- function(connectionDetails,
     )
     
       sqlPerformanceTable <- SqlRender::loadRenderTranslateSql(
-      sqlFilename = "achilles_performance_ddl.sql",
+      sqlFilename = "analyses/achilles_performance_ddl.sql",
       packageName = "Achilles",
       dbms        = connectionDetails$dbms,
       resultsDatabaseSchema   = resultsDatabaseSchema
